@@ -1,0 +1,29 @@
+.Container {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.226);
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 27px;
+}
+
+.Botao {
+    box-shadow: 1px, 1px, 10px rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: rgba(18, 145, 230, 0.993);
+    padding: 15px 60pt;
+    margin: 10px auto;
+    width: 100pt;
+    display: block;
+}
+
