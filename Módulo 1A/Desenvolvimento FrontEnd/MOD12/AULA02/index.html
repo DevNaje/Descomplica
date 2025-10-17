@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exemplo de Efeito Scale</h1>
+        <button id="scaleButton">Clique aqui para aumentar</button>
+    </div>
+    <script>
+        // Seleciona o botão pelo ID
+        const button = document.getElementById('scaleButton');
+        // Adiciona um evento de clique ao botão
+        button.addEventListener('click',
+            function() {
+                // Adiciona a classe 'scale' ao btn quando ele é clicado
+                button.classList.toggle('scale');
+            });
+    </script>
+</body>
+</html>
